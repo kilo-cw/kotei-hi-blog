@@ -10,7 +10,7 @@ npm run build   # 本番ビルド（draft: true の記事は除外）
 ```
 
 ## 公開（Cloudflare Workers）
-`main` に push すると Workers Builds が `npm run build` → `npx wrangler deploy` を実行し、`dist/` を配信する（`wrangler.jsonc`）。
+`main` に push すると Cloudflare Workers Builds が自動でビルド・公開する（設定は Cloudflare ダッシュボード側）。
 
 ## 運営者がやること
 - A8.net で提携が承認されたら、広告リンクを `src/data/programs.ts` の `url` に貼る
