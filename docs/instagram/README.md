@@ -1,9 +1,19 @@
 # Instagram（@maitsuki_uku）投稿の記録
 
-| # | 投稿日 | テーマ | 元記事 | Canva |
+| # | 投稿日 | テーマ | 元記事 | 画像 |
 |---|---|---|---|---|
-| 1 | 2026-11-17 | 固定費の見直し、何から始める？ | kotei-hi-minaoshi-junban | https://www.canva.com/d/EsadNwueHtlDXtX |
-| 2 | 未投稿 | プロパンガス代、高すぎない？ | propane-gas-takai | https://www.canva.com/d/rf4H6dCiosbAt1K |
+| 1 | 2026-11-17 | 固定費の見直し、何から始める？ | kotei-hi-minaoshi-junban | `images/01-kotei-hi/` |
+| 2 | 未投稿 | プロパンガス代、高すぎない？ | propane-gas-takai | `images/02-propane-gas/` |
+
+## 画像の作り方
+Canvaの自動生成は文字が重なるため使わない。スライドの文言を `posts/<番号-テーマ>.json` に書き、次で生成する（1080×1350のPNG）。
+```
+node tools/instagram/render.cjs docs/instagram/posts/02-propane-gas.json
+```
+- 出力先: `images/<番号-テーマ>/01.png〜`
+- 文字のあふれ・重なりがあるとエラーで止まる。項目が多いスライドは `"compact": true`
+- スライドの種類: `cover`（表紙）／通常（title + lead / chips / items / compare / box / note）／`end`（締め）
+- 【】で囲んだ文字はグリーンになる
 
 ## ハッシュタグ（1投稿5個まで）
 - テーマ専用 3個 ＋ アカウントの軸 2個（#固定費削減 #家計管理 など）

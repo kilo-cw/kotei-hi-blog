@@ -23,3 +23,7 @@ Astro 5 製の静的サイト。Cloudflare Workers（Workers Builds）が `main`
 2. `claude/post-<slug>` ブランチで記事を `draft: true` で作成し、`npm run build` が通ることを確認
 3. プルリクエストを作成（本文に：狙うキーワード、使った案件ID、運営者に確認してほしい点・追記してほしい体験）
 4. 既存記事で古くなった情報があれば、別のプルリクエストで更新を提案する
+
+## Instagram（@maitsuki_uku）
+- 投稿の記録・ルール・画像の作り方は `docs/instagram/README.md`
+- 画像は `tools/instagram/render.cjs` で生成する（Canvaの自動生成は文字が重なるので使わない）。生成後は必ず画像を目で確認する

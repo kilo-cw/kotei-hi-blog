@@ -12,5 +12,8 @@
     "@astrojs/mdx": "^4.3.14",
     "@astrojs/sitemap": "^3.7.5",
     "astro": "^5.18.2"
+  },
+  "devDependencies": {
+    "@fontsource/zen-maru-gothic": "^5.3.1"
   }
 }
