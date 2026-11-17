@@ -1,0 +1,21 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+const posts = (await getCollection('posts', ({ data }) => import.meta.env.DEV || !data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const fmt = (d: Date) => d.toLocaleDateString('ja-JP', { timeZone: 'Asia/Tokyo' });
+---
+<Base>
+  <p>毎月かならず出ていく「固定費」。ひとつ見直すだけで、毎月ちょっとずつ家計が浮きます。このブログでは、ガス・スマホ・ネット・保険を一つずつ取り上げて、見直し方を具体的にまとめています。</p>
+  <h2>新着記事</h2>
+  {posts.length === 0 && <p class="meta">記事を準備中です。</p>}
+  <ul class="post-list">
+    {posts.map((p) => (
+      <li>
+        <span class="meta">{p.data.category}・{fmt(p.data.updatedDate ?? p.data.pubDate)}{p.data.draft && '（下書き）'}</span><br />
+        <a href={`/posts/${p.id}/`}>{p.data.title}</a>
+        <p>{p.data.description}</p>
+      </li>
+    ))}
+  </ul>
+</Base>

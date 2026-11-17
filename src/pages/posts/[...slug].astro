@@ -1,0 +1,27 @@
+---
+import Base from '../../layouts/Base.astro';
+import PrNotice from '../../components/PrNotice.astro';
+import AffiliateBox from '../../components/AffiliateBox.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts', ({ data }) => import.meta.env.DEV || !data.draft);
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+}
+const { post } = Astro.props;
+const { Content } = await render(post);
+const fmt = (d: Date) => d.toLocaleDateString('ja-JP', { timeZone: 'Asia/Tokyo' });
+const hasPr = post.data.programs.length > 0;
+---
+<Base title={post.data.title} description={post.data.description} noindex={post.data.draft}>
+  <article>
+    {hasPr && <PrNotice />}
+    <h1>{post.data.title}</h1>
+    <p class="meta">
+      公開：{fmt(post.data.pubDate)}
+      {post.data.updatedDate && <>　更新：{fmt(post.data.updatedDate)}</>}
+      　カテゴリ：{post.data.category}
+    </p>
+    <Content components={{ AffiliateBox }} />
+  </article>
+</Base>

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kotei-hi-blog.pages.dev/sitemap-index.xml
