@@ -30,7 +30,7 @@ export const PROGRAMS: Record<string, Program> = {
   xmobile_green: {
     name: 'グリーンプラン（X-mobile）',
     category: 'スマホ',
-    catch: '1GB単位で選べる、縛りなしの格安SIM',
+    catch: '1GB単位で選べて、余ったデータは翌月に繰り越し。縛りなしの格安SIM',
     cta: 'グリーンプランの詳細を見る',
     url: 'https://px.a8.net/svt/ejp?a8mat=4BGNCH+JNLRU+5XZ2+5YJRM',
     pixel: 'https://www17.a8.net/0.gif?a8mat=4BGNCH+JNLRU+5XZ2+5YJRM',
