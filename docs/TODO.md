@@ -4,10 +4,10 @@
 
 ## 今やること
 - [ ] **ブログ記事を3本そろえる（A8.net登録のため）**
-  - [x] プロパンガス代が高い理由と下げ方（`propane-gas-takai.mdx`・下書き）
-  - [x] 固定費の見直しは何から？優先順位（`kotei-hi-minaoshi-junban.mdx`・下書き）
-  - [x] 格安SIMに乗り換える前のチェックリスト（`kakuyasu-sim-checklist.mdx`・下書き）
-  - [ ] 運営者が3本を確認 → 公開（`draft: false`）
+  - [x] プロパンガス代が高い理由と下げ方（`propane-gas-takai.mdx`）
+  - [x] 固定費の見直しは何から？優先順位（`kotei-hi-minaoshi-junban.mdx`）
+  - [x] 格安SIMに乗り換える前のチェックリスト（`kakuyasu-sim-checklist.mdx`）
+  - [x] 運営者が3本を確認 → 公開（2026-11-17）
   - [ ] 公開後、A8.netにサイト登録（説明文は下に）
 - [ ] **Instagramアカウントを作る**
   - 個人アカウントとは別に作成 → プロアカウント（クリエイター）に切り替え
