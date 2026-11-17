@@ -47,6 +47,16 @@ export const PROGRAMS: Record<string, Program> = {
     reward: '新規開通 30,000円',
     checkedAt: '2026-11-10',
   },
+  biglobe_hikari_plus: {
+    name: 'BIGLOBE光プラス by auひかりプラス',
+    category: 'ネット',
+    catch: 'BIGLOBE公式サイトから申し込める光回線',
+    cta: 'BIGLOBE光プラスの詳細を見る',
+    url: 'https://px.a8.net/svt/ejp?a8mat=4BGNCH+NTN0A+B4+2Z68LU',
+    pixel: 'https://www11.a8.net/0.gif?a8mat=4BGNCH+NTN0A+B4+2Z68LU',
+    reward: '（A8のプログラム詳細で確認）',
+    checkedAt: '2026-11-17',
+  },
   hoken_minaoshi_honpo: {
     name: '保険見直し本舗',
     category: '保険',
