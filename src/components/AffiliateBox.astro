@@ -10,6 +10,6 @@ if (!p) throw new Error(`programs.ts に未登録の案件ID: ${Astro.props.id}`
     <p class="aff-name">{p.name}</p>
     <p class="aff-catch">{p.catch}</p>
     <a class="aff-btn" href={p.url} rel="sponsored noopener" target="_blank">{p.cta}</a>
-    {p.pixel && <img src={p.pixel} width="1" height="1" alt="" loading="lazy" />}
+    {p.pixel && <img src={p.pixel} width="1" height="1" alt="" />}
   </aside>
 )}
