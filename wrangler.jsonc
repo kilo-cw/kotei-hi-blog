@@ -1,0 +1,9 @@
+// Cloudflare Workers の公開設定（ビルド結果 dist/ を静的サイトとして配信）
+{
+  "name": "kotei-hi-blog",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  }
+}

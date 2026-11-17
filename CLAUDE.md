@@ -1,6 +1,6 @@
 # 毎月ちょっと浮く。（固定費見直しブログ）
 
-Astro 5 製の静的サイト。Cloudflare Pages が `main` ブランチを自動でビルド・公開する。
+Astro 5 製の静的サイト。Cloudflare Workers（Workers Builds）が `main` ブランチを自動でビルド・公開する（設定は `wrangler.jsonc`）。
 
 ## 構成
 - 記事: `src/content/posts/<slug>.mdx`（frontmatter のスキーマは `src/content.config.ts`）
