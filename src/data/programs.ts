@@ -21,9 +21,10 @@ export const PROGRAMS: Record<string, Program> = {
   enepoke: {
     name: 'エネポケ',
     category: 'ガス',
-    catch: 'プロパンガス会社の切り替えを無料でサポート',
+    catch: 'プロパンガス会社の見直し・切り替えをサポート',
     cta: 'エネポケで料金をチェックする',
-    url: '',
+    url: 'https://px.a8.net/svt/ejp?a8mat=4BGNCG+GBN4VU+5Y42+5YJRM',
+    pixel: 'https://www15.a8.net/0.gif?a8mat=4BGNCG+GBN4VU+5Y42+5YJRM',
     reward: '新規切替完了 10,500円',
     checkedAt: '2026-11-10',
   },
