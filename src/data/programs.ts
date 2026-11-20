@@ -51,12 +51,12 @@ export const PROGRAMS: Record<string, Program> = {
   biglobe_hikari_plus: {
     name: 'BIGLOBE光プラス by auひかりプラス',
     category: 'ネット',
-    catch: 'BIGLOBE公式サイトから申し込める光回線',
+    catch: '光回線＋au 5G。工事を待たずにネットが使える',
     cta: 'BIGLOBE光プラスの詳細を見る',
     url: 'https://px.a8.net/svt/ejp?a8mat=4BGNCH+NTN0A+B4+2Z68LU',
     pixel: 'https://www11.a8.net/0.gif?a8mat=4BGNCH+NTN0A+B4+2Z68LU',
-    reward: '（A8のプログラム詳細で確認）',
-    checkedAt: '2026-11-17',
+    reward: '新規 7,500円／転用・事業者変更 3,690円',
+    checkedAt: '2026-11-20',
   },
   hoken_minaoshi_honpo: {
     name: '保険見直し本舗',
