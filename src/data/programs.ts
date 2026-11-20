@@ -77,13 +77,13 @@ export const PROGRAMS: Record<string, Program> = {
     checkedAt: '2026-11-10',
   },
   garden_fp: {
-    name: 'ガーデン（FP無料相談）',
+    name: 'ガーデン（年金・貯蓄の無料相談）',
     category: '家計全体',
-    catch: '老後資金・資産形成をFPに無料で相談',
+    catch: 'iDeCo・NISA・個人年金など、将来のお金をFPに無料相談',
     cta: 'ガーデンでFPに相談する',
     url: '',
-    reward: '初回対面無料相談実施 10,250円',
-    checkedAt: '2026-11-10',
+    reward: '初回面談 10,250円',
+    checkedAt: '2026-11-20',
   },
   manecafe: {
     name: 'マネカフェ',
