@@ -21,7 +21,7 @@ export const PROGRAMS: Record<string, Program> = {
   enepoke: {
     name: 'エネポケ',
     category: 'ガス',
-    catch: 'プロパンガス会社の見直し・切り替えをサポート',
+    catch: '戸建て向け。無料診断で今のガス料金が適正かチェック',
     cta: 'エネポケで料金をチェックする',
     url: 'https://px.a8.net/svt/ejp?a8mat=4BGNCG+GBN4VU+5Y42+5YJRM',
     pixel: 'https://www15.a8.net/0.gif?a8mat=4BGNCG+GBN4VU+5Y42+5YJRM',
