@@ -4,6 +4,7 @@
 |---|---|---|---|---|
 | 1 | 2026-11-17 | 固定費の見直し、何から始める？ | kotei-hi-minaoshi-junban | `images/01-kotei-hi/` |
 | 2 | 未投稿 | プロパンガス代、高すぎない？ | propane-gas-takai | `images/02-propane-gas/` |
+| 3 | 未投稿 | 格安SIMに乗り換える前のチェックリスト | kakuyasu-sim-checklist | `images/03-kakuyasu-sim/` |
 
 ## 画像の作り方
 Canvaの自動生成は文字が重なるため使わない。スライドの文言を `posts/<番号-テーマ>.json` に書き、次で生成する（1080×1350のPNG）。
