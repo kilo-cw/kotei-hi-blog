@@ -6,6 +6,7 @@
 | 2 | 未投稿 | プロパンガス代、高すぎない？ | propane-gas-takai | `images/02-propane-gas/` |
 | 3 | 未投稿 | 格安SIMに乗り換える前のチェックリスト | kakuyasu-sim-checklist | `images/03-kakuyasu-sim/` |
 | 4 | 未投稿 | プロパンガスの値上げ通知が届いたら？ | propane-neage-tsuchi | `images/04-propane-neage/` |
+| 5 | 未投稿 | プロパンガス会社の切り替え方 | propane-gas-kirikae | `images/05-propane-kirikae/` |
 
 ## 画像の作り方
 Canvaの自動生成は文字が重なるため使わない。スライドの文言を `posts/<番号-テーマ>.json` に書き、次で生成する（1080×1350のPNG）。
